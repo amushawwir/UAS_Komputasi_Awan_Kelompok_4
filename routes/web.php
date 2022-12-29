@@ -56,6 +56,7 @@ Route::group(['prefix' => '/user'], function(){
 
 Route::get('logout', [LoginController::class, 'logout']);
 
+
 //cloudkomputasi
 Route::get('/mig', function()
 {
